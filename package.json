@@ -1,0 +1,20 @@
+{
+  "name": "testtsrollup",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/module.js",
+  "license": "MIT",
+  "scripts": {
+    "build0": "tsc",
+    "build": "tsc --module commonjs",
+    "rollup": "rollup -c rollup.config.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.10",
+    "rollup": "^1.16.2",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-typescript2": "^0.21.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  }
+}
